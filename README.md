@@ -1,4 +1,4 @@
-underscore.parse
+underscore.parse [![Build Status](https://travis-ci.org/mateusmaso/underscore.parse.svg?branch=master)](https://travis-ci.org/mateusmaso/underscore.parse)
 ================
 This library is an extension for Underscore which allows parsing string value into primitives.
 
@@ -10,16 +10,25 @@ This library is an extension for Underscore which allows parsing string value in
 
 * underscore.js (>= 1.5)
 
+## Node
+
+```javascript
+var _ = require('underscore');
+_.mixin(require('underscore.parse'));
+```
+
 ## Examples
 
 ```javascript
 var boolean = "true";
 var integer = "123";
-var object = "{foo: {bar: {}}}";
+var array = "[1, true, null]";
+var object = '{"foo": {"bar": 123}}';
 
-_.parse(boolean); // true
-_.parse(integer); // 123
-_.parse(object); // {foo: {bar: {}}}
+_.parse(boolean);
+_.parse(integer);
+_.parse(array);
+_.parse(object);
 ```
 
 ## License
