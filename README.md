@@ -1,6 +1,7 @@
 underscore.parse [![Build Status](https://travis-ci.org/mateusmaso/underscore.parse.svg?branch=master)](https://travis-ci.org/mateusmaso/underscore.parse)
 ================
-This library is an extension for Underscore which allows parsing string value into primitives.
+
+This library is an extension for Underscore which allows parsing string values into primitives.
 
 ## Features
 
@@ -8,7 +9,7 @@ This library is an extension for Underscore which allows parsing string value in
 
 ## Dependencies
 
-* underscore.js (>= 1.5)
+* underscore.js (>= 1.5.0)
 
 ## Node
 

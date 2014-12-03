@@ -1,7 +1,7 @@
 {
   "name": "underscore.parse",
   "description": "Underscore helper for parsing string values into primitives",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "mateusmaso",
   "keywords": ["underscore", "javascript", "parse"],
   "devDependencies": {
